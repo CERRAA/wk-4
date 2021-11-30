@@ -7,7 +7,7 @@
 .info{
     text-align: center;
     color: rgb(20, 123, 220);
-    background-image:url(/images/bg.jpg);
+    background-image:url(./images/bg.jpg);
     width: 80rem;
     margin-left: -15vh;
 }
@@ -40,7 +40,7 @@
 }
 .order{
     text-align: center;
-    background-image:url("images/download\ \(1\).jpeg");
+    background-image:url("./images/download\ \(1\).jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
@@ -56,7 +56,7 @@
 .button{
     text-align: center;
     color: rgb(156, 2, 61);
-    background-image: url("images/download\ \(2\).jpeg");
+    background-image: url("./images/download\ \(2\).jpeg");
     width: -95vh;
     margin-left: -5vh;
     margin: right -25vh;
