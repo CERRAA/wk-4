@@ -1,0 +1,67 @@
+.pizza{
+    text-align: center;
+    color: red;
+    background-color: white;
+    
+}
+.info{
+    text-align: center;
+    color: rgb(20, 123, 220);
+    background-image:url(/images/bg.jpg);
+    width: 80rem;
+    margin-left: -15vh;
+}
+#bounce {
+    animation: bounce 1s infinite;
+    background-color:white;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-55px);
+    }
+
+    60% {
+        transform: translateY(-45px);
+    }
+}
+.varieties{
+    text-align: center;
+    margin-left: -20vh;
+}
+.order{
+    text-align: center;
+    background-image:url("images/download\ \(1\).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 300vh;
+    color: lightskyblue;
+    margin-left:-60vh;
+    margin-right:-95vh ;
+}
+.paragraph{
+    color: rgb(218, 104, 218);
+    text-align:center;
+}
+.button{
+    text-align: center;
+    color: rgb(156, 2, 61);
+    background-image: url("images/download\ \(2\).jpeg");
+    width: -95vh;
+    margin-left: -5vh;
+    margin: right -25vh;
+    height: 55vh;
+}
+#final-order{
+  color: white;  
+}

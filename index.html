@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="pizza">
+    <nav>PIZZA DELICACIES PALACE</nav>  
+      </div>
+
+      <div class="info">
+          <h1>more about us</h1>
+          <p><strong> Making your taste buds need more of sweetness</strong> </p>
+          <p>Most of our ingredients are not locally available,,,so they are shipped in</p>
+          <p>We have branches worldwide</p>
+      </div>
+       
+       <div class="mouse">
+        <a href="#about"><img src="https://github.com/Owiti-Charles/Delani-Studio/blob/master/images/mouse_click.png?raw=true" class="mx-auto d-block click" alt="mouse click" id="bounce"></a>
+       </div>   
+
+                                     <!-- variety -->
+        <div class="varieties">
+              <h2>VARIETIES</h2>
+              <div class="row" id="pizza">
+                <!-- !!!! -->
+
+  <div class="col-md-3" id="work1">
+                  <img src="images/download.jpeg" alt="pizza1">
+                  <p id="overlay" class="pizza1">vegetable</p>
+                </div> 
+                <!-- pizza 1 -->
+
+         
+  <div class="col-md-3" id="work1">
+                  <img src="images/pizza.png" alt="pizza2">
+                  <p id="overlay" class="pizza2">non-vegetable</p>
+                </div> 
+
+            <!-- pizza 2 -->
+
+
+
+  <div class="col-md-3" id="work1">
+                  <img src="images/pizza2.png" alt="pizza2">
+                  <p id="overlay" class="pizza3">chicken sausage</p>
+                </div>
+
+           <!-- pizza 3 -->
+
+  <div class="col-md-3" id="work1">
+                  <img src="images/pineapple.jpg" alt="pizza2">
+                  <p id="overlay" class="pizza4">fruity pineapple</p>
+                </div>
+             <!-- pizza 4 -->
+       </div>
+ </div>
+  <!-- end of variety section -->
+
+ 
+  <div class="container">
+      <div class="order">
+      <h1>ORDER BELOW</h1>
+ <div class=row>
+     <div class="col-md-12">
+     <form action="">
+      <p>we offer many varieties at our palace</p>
+
+    <input type="number" name="amount" id="amount" placeholder="choose the amount you want">
+
+      <label for="select">Select Your Flavor</label>
+                <select id="flavour" class="browser-default custom-select custom-select-md mb-3 name">
+                  <!-- <option> Choose your flavor</option> -->
+                  <option value="Chicken pizza">chicken pizza</option>
+                  <option value="fruity pizza">fruity pizza</option>
+                  <option value="marc&cheese">marc&cheese</option>
+                  <option value="raspberry pizza">raspberry pizza</option>
+              
+                </select>
+                <!-- option for choosing size -->
+      
+ <label for="size"> choose your size</label>
+   <select id="size">
+
+       <option value="large 1200">large 1200</option>
+       <option value="medium 800">medium 800</option>
+       <option value="small 150">small 150</option>
+   </select>
+               <!-- option for choosing crust -->
+    <label for="select">select your crust </label>
+    <select id="crust">
+        <option value="crispy">crispy</option>
+        <option value="stuffed">stuffed</option>
+        <option value="gluten-free">gluten-free</option>
+    </select>
+         <!-- option for choosing topping -->
+    <label for="select"> select your topping</label>
+    <select id="topping">
+      
+        <option value="pepperoni">pepperoni-ksh100</option>
+        <option value="mushroom">mushroom-ksh100</option>
+        <option value="sausage">sausage-ksh150</option>
+        <option value="onion">onion-ksh50</option>
+        <option value="fresh garlic">fresh garlic- ksh50</option>
+        <div id="output"></div>
+    </select>
+    
+    <div class="paragraph">
+    <p>After ordering the meal we deliver it instantly</p>
+    <p>at a very low price,,<span> something awesome is that you get to eat something incredible</span></p>
+    </div>
+    
+     <button type="submit" class="btn btn-orange proceed">submit</button>
+              
+     </form>
+                             </div>
+                      </div>  
+                 </div>  
+              </div>
+
+  <div class="button">
+ <button class="btn btn-orange addPizza" id="addpizza">Add Pizza</button>
+              <button class="btn btn-orange" id="checkout">Checkout</button>
+              <button class="btn btn-orange deliver" id="home delivery">Home delivery?</button>
+            
+            <div class="delivery">
+                <form action="">
+                  <div class="form-group">
+                    <input type="text" id="name" class="form-control mb-3" placeholder="enter your Name">
+                    <input type="number" id="phone" class="form-control mb-3" placeholder="enter your Phone Number">
+                    <input type="text" id="location" class="form-control mb-3" placeholder="enter your Location for delivery">
+
+                               
+                    <button class="btn btn-orange" id="final-order" onclick="placeorder()">Place Order</button>
+
+                  </form>
+
+              </div>
+         </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
